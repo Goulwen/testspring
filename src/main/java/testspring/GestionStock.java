@@ -20,4 +20,8 @@ public class GestionStock {
 	public void setEnregistreur(EnregistreurVetement enregistreur) {
 		this.enregistreur = enregistreur;
 	}
+
+	public void trace() {
+		System.out.println("Mon enregistreur est de type " + enregistreur.getClass().getName());
+	}
 }
